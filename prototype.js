@@ -26,7 +26,7 @@ Cat.prototype.voice = function(){
     Animal.prototype.voice.apply(this,arguments) //Вывод старого значения
     console.log('Base myau', this.name) // Переопределение значения для cat
 }
-const cat = new Cat({name:'Murzik', color:'#000', thisTail:true})
+const cat = new Cat({name:'Murzik', color:'#000', thisTail:true});
 cat.voice()
 console.log(cat)
 
