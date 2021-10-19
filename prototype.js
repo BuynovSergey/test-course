@@ -68,4 +68,4 @@ String. prototype.toTag = function(tagName){
     return `<${tagName}>${this}</${tagName}>`
 }
 console.log('text'.toTag('b'))
-console.log('text'.toTag('strong'))
+console.log('text'.toTag('strong'));
