@@ -1,1 +1,1 @@
-Test files on the JavaScript
+Test files on the JavaScript for GitHub

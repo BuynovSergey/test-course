@@ -67,5 +67,5 @@ console.log([1,3,5].myMap(x => x ** 2))
 String. prototype.toTag = function(tagName){
     return `<${tagName}>${this}</${tagName}>`
 }
-console.log('text'.toTag('b'))
+console.log('text'.toTag('b'));
 console.log('text'.toTag('strong'));
