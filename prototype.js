@@ -62,7 +62,7 @@ cat.print()
 Array.prototype.myMap = function(){
     return this.map.apply(this, arguments)
 }
-console.log([1,3,5].myMap(x => x ** 2))
+console.log([1,3,5].myMap(x => x ** 2));
 
 String. prototype.toTag = function(tagName){
     return `<${tagName}>${this}</${tagName}>`
